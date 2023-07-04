@@ -3,6 +3,7 @@ import './App.scss';
 import React from 'react';
 import Application from './Example/Application';
 import NewComp from './Example/NewComp';
+import FormTest from './Example/FormTest';
 
 function App() {
   return (
@@ -19,10 +20,12 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        <Application/>
-        <NewComp/>
+
 
         </a>
+
+        <FormTest/>
+        
       </header>
       
     </div>
