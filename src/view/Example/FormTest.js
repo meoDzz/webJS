@@ -9,6 +9,7 @@ class FormTest extends React.Component {
         {id:'521job2', title:'testers', salary:'300'},
         {id:'567job3', title:'managers', salary:'5000'},
       ]
+
   }
 
   handleOnChangeName = (event) =>
@@ -53,8 +54,8 @@ class FormTest extends React.Component {
            />
         </form>
         <Application 
-        name={"lu"}
-        // name = {this.state.lastName}
+        //name={"lu"}
+        name = {this.state.firstName}
         age={"25"}
         address={"25 Ashahi dai"}
         def ={this.state.arrJobs}
